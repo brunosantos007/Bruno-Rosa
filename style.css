@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1E2131;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/* HEADER */
+
+.div_imagem_header{
+    /* background-image: url(imagens/dois-coracoes-vermelhos-contra-o-fundo-vermelho.jpg);
+    width: 100%;
+    min-height: 1000px;
+    background-size: cover;
+    background-position: center; */
+}
+.div_img_casal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div_img_casal img{
+    border-radius: 100%;
+    max-width: 50%;
+}
