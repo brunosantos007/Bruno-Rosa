@@ -9,22 +9,75 @@ body{
     font-weight: lighter;
     font-size: 20px;
 }
+h2,h4{
+    color: #F2594F;
+}
 
 /* HEADER */
 
 .div_imagem_header{
-    /* background-image: url(imagens/dois-coracoes-vermelhos-contra-o-fundo-vermelho.jpg);
+    background-image: url(imagens/roma.jpg);
+    background-position: center;
     width: 100%;
-    min-height: 1000px;
+    min-height: 10px;
     background-size: cover;
-    background-position: center; */
+    padding-bottom: 80px;
+    background-attachment: local;
+    /* background-color: #F2594F; */
 }
 .div_img_casal{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .div_img_casal img{
     border-radius: 100%;
-    max-width: 50%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+.img-juntos img{
+    max-width: 40%;
+    border-radius: 20%;
+    box-shadow: 1px 1px solid black;
+}
+
+/* MAIN */
+.main-conteudos{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.conteudos-imgs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.conteudos-imgs img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.img-juntos{
+    text-align: center;
+}
+/* namoro */
+.div-botoes{
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.botoes-namoro{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    height: 900px;
+}
+.botoes-namoro.sim{
+    background-color: green;
+}
+.botoes-namoro.nao{
+    background-color: red;
 }
