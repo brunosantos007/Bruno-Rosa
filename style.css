@@ -61,6 +61,13 @@ h2,h4{
     text-align: center;
 }
 /* namoro */
+.div-img-figure{
+    margin: 40px;
+    text-align: center;
+}
+.div-img-figure img{
+    max-width: 100%;
+}
 .div-botoes{
     margin: auto;
     text-align: center;
